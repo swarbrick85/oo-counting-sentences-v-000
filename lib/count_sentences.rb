@@ -8,7 +8,7 @@ class String
     c = b.last
     d = c.last 
     
- binding.pry
+    binding.pry
   end
 
   def question?

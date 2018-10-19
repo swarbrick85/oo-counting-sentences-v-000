@@ -5,7 +5,7 @@ class String
   def sentence?
     a = self.split 
     b = a.last.split
-    b.last == "."
+    c = b.last
     binding.pry 
 
   end

@@ -6,7 +6,7 @@ class String
     a = self.split 
     b = a.last.split
     b.last == "."
-    
+    binding.pry 
 
   end
 

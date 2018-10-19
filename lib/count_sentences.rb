@@ -18,7 +18,16 @@ class String
   end
 
   def count_sentences
+    x = []
     a = self.split
-    binding.pry 
+    a.each do |word|
+      if word.include? "."
+        x << word
+      elsif word.include? "?"
+        x << word 
+      elsif word.include? "!"
+        x << word
+      end
   end
+  
 end

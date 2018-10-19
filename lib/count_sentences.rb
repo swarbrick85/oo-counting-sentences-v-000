@@ -28,7 +28,7 @@ class String
       elsif word.include? "!"
         x << word
       end
-      x
+      x.size 
   end
   
 end

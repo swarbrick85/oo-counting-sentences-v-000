@@ -5,6 +5,7 @@ class String
   def sentence?
     a = self.split 
     a.last == "."
+    binding.pry 
   end
 
   def question?

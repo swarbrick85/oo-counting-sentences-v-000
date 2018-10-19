@@ -4,9 +4,7 @@ class String
 
   def sentence?
     a = self.split 
-    b = a.last.split
-    c = b.last
-    d = c.last 
+     
     
     binding.pry
   end

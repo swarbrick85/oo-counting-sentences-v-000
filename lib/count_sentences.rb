@@ -3,10 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    a = self.split
-     
-    
-    binding.pry
+    a = self.split("")
+    a.last == "."
   end
 
   def question?

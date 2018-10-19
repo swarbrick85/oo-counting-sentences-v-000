@@ -8,11 +8,13 @@ class String
   end
 
   def question?
-
+    a = self.split("")
+    a.last == "?"
   end
 
   def exclamation?
-
+    a = self.split("")
+    a.last == "!"
   end
 
   def count_sentences

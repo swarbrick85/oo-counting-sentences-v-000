@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    a = self.split 
+    a = self.split
      
     
     binding.pry

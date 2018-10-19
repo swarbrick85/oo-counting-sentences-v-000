@@ -28,6 +28,7 @@ class String
       elsif word.include? "!"
         x << word
       end
+      x
   end
   
 end

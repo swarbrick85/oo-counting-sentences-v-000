@@ -7,7 +7,7 @@ class String
     b = a.last.split
     b.last == "."
     
-    binding.pry 
+
   end
 
   def question?
